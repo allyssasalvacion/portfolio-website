@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Homemade Apple';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/HomemadeApple-Regular.ttf') format('ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-weight: 100 900;
+    font-style: normal;
+    src: url('../fonts/Inter-VariableFont_slnt,wght.ttf') format('ttf');
+  }
