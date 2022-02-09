@@ -47,8 +47,8 @@ const links = {
 
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-[#090d11] absolute bottom-0 w-full">
-      <div className="max-w-7xl mx-auto px-6 py-8 border-t border-gray-400 dark:border-gray-800">
+    <footer className="bg-white dark:bg-[#090d11] w-full">
+      <div className="max-w-7xl mx-auto px-6 py-4 border-t border-gray-300 dark:border-gray-800">
         <div className="flex flex-col gap-2 md:flex-row justify-between items-center">
           <div className="text-xs text-zinc-700 dark:text-gray-400 text-center">
             BUILT USING NEXT.JS AND TAILWINDCSS

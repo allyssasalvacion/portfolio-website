@@ -1,0 +1,25 @@
+const heroUrl = "./allyssa.png";
+
+export default function Hero() {
+  return (
+    <section className="max-w-7xl mx-auto px-4 xl:px-5 mb-0 lg:mb-32 mt-6 md:pt-12">
+      <div className="flex flex-col sm:flex-row items-center gap-8 md:gap-10 lg:gap-16 mx-12 sm:mx-24 md:mx-32 lg:mx-40">
+        <img
+          src={heroUrl}
+          alt="avatar"
+          className="rounded-md h-24 sm:h-48 lg:h-54 shadow-2xl dark:shadow-2xl shadow-zinc-500/50 dark:shadow-fuchsia-600/20 dark:bg-gray-200"
+        />
+        <h1 className="leading-normal text-center sm:text-left text-xl sm:text-2xl md:text-4xl xl:text-5xl font-bold text-zinc-900 dark:text-gray-300">
+          Hey there 👋🏼
+          <br />
+          I'm{" "}
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">
+            Allyssa
+          </span>
+          , a designer and developer specializing in web interface and
+          experience
+        </h1>
+      </div>
+    </section>
+  );
+}

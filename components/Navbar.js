@@ -6,7 +6,7 @@ import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
-  { name: "ABOUT", href: "#" },
+  { name: "ABOUT", href: "#about" },
   { name: "WORKS", href: "#" },
   { name: "EXPERIENCE", href: "#" },
   { name: "CONTACT", href: "#" },
@@ -21,14 +21,14 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className="max-w-7xl mx-auto px-6 py-8 sticky top-0 backdrop-blur">
+    <header className="max-w-7xl mx-auto px-6 py-6 bg-white dark:bg-[#090d11] sticky top-0">
       <div className="flex md:flex-row justify-between items-center h-full">
         {/* logo */}
         <div className="flex flex-col">
           <Link href="/">
             <a>
-              <h1 className="pt-2 font-semibold text-zinc-700 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 text-xl font-apple">
-                allyssa albores
+              <h1 className="pt-2 font-semibold text-zinc-700 dark:text-gray-300 text-xl font-apple">
+                allyssa
               </h1>
             </a>
           </Link>
@@ -37,7 +37,11 @@ export default function Navbar() {
         {/* links */}
         <Popover>
           <div className="flex-row gap-2 hidden md:flex">
-            <Button label="ABOUT" style="link" />
+            <Button
+              label="ABOUT"
+              style="link"
+              onClick={() => window.location.assign("#about")}
+            />
             <Button label="WORKS" style="link" />
             <Button label="EXPERIENCE" style="link" />
             <Button label="CONTACT" style="link" />
