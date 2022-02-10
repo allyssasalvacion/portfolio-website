@@ -7,6 +7,7 @@ const projects = {
 const links = {
   todo: "https://todo.allyssa.dev/",
   cart: "https://tinda-han-9f087.firebaseapp.com/",
+  portfolio: "https://allyssa.dev/",
 };
 
 export default function Projects() {
@@ -90,7 +91,7 @@ export default function Projects() {
             Portfolio Website
           </h2>
           <a
-            href={links.todo}
+            href={links.portfolio}
             className="text-indigo-500 hover:opacity-70 font-semibold text-sm md:text-md"
             target="_blank"
           >

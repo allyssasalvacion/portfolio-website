@@ -31,7 +31,7 @@ export default function Navbar() {
           <Link href="/">
             <a>
               <h1 className="pt-2 font-bold text-zinc-700 dark:text-gray-300 text-xl font-apple">
-                allyssa
+                allyssa albores
               </h1>
             </a>
           </Link>
