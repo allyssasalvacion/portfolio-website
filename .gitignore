@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+.next
 
 # testing
 /coverage
@@ -19,7 +20,6 @@
 .env.test.local
 .env.production.local
 .eslintrc.json
-.next
 .vscode
 
 npm-debug.log*

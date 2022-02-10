@@ -9,7 +9,7 @@ export default function Hero() {
           alt="avatar"
           className="rounded-md h-24 sm:h-48 lg:h-54 shadow-2xl dark:shadow-2xl shadow-zinc-500/50 dark:shadow-fuchsia-600/20 dark:bg-gray-200"
         />
-        <h1 className="leading-normal text-center sm:text-left text-xl sm:text-2xl md:text-4xl xl:text-5xl font-bold text-zinc-900 dark:text-gray-300">
+        <h1 className="leading-tight text-center sm:text-left text-2xl md:text-4xl xl:text-5xl font-bold text-zinc-900 dark:text-gray-300">
           Hey there 👋🏼
           <br />
           I'm{" "}

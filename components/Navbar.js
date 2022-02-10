@@ -7,8 +7,8 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
   { name: "ABOUT", href: "#about" },
+  { name: "EXPERIENCE", href: "#experience" },
   { name: "WORKS", href: "#" },
-  { name: "EXPERIENCE", href: "#" },
   { name: "CONTACT", href: "#" },
 ];
 
@@ -42,8 +42,12 @@ export default function Navbar() {
               style="link"
               onClick={() => window.location.assign("#about")}
             />
+            <Button
+              label="EXPERIENCE"
+              style="link"
+              onClick={() => window.location.assign("#experience")}
+            />
             <Button label="WORKS" style="link" />
-            <Button label="EXPERIENCE" style="link" />
             <Button label="CONTACT" style="link" />
             <Button
               label={mounted && theme === "dark" ? "💡" : "🌗"}
