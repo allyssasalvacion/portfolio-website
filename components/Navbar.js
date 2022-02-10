@@ -31,7 +31,7 @@ export default function Navbar() {
           <Link href="/">
             <a>
               <h1 className="pt-2 font-bold text-zinc-700 dark:text-gray-300 text-xl font-apple">
-                allyssa albores
+                allyssa
               </h1>
             </a>
           </Link>
@@ -94,7 +94,7 @@ export default function Navbar() {
                 <div className="px-5 pt-4 flex items-center justify-between">
                   <div className="flex flex-row">
                     <h1 className="pt-2 font-semibold text-zinc-700 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 text-xl font-apple mr-2">
-                      allyssa albores
+                      allyssa
                     </h1>
                     <Button
                       label={mounted && theme === "dark" ? "💡" : "🌗"}
