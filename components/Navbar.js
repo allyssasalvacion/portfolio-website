@@ -8,8 +8,11 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 const navigation = [
   { name: "ABOUT", href: "#about" },
   { name: "EXPERIENCE", href: "#experience" },
-  { name: "WORKS", href: "#" },
-  { name: "CONTACT", href: "#" },
+  { name: "PROJECTS", href: "#projects" },
+  {
+    name: "RESUME",
+    href: "https://drive.google.com/file/d/1XP3J2ahWaVvDrGjbnCVRUhFLdWTI20jM/view?usp=sharing",
+  },
 ];
 
 export default function Navbar() {
@@ -21,8 +24,8 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className="max-w-7xl mx-auto px-6 py-6 bg-white dark:bg-[#090d11] sticky top-0">
-      <div className="flex md:flex-row justify-between items-center h-full">
+    <header className="bg-white dark:bg-[#090d11] fixed w-full top-0 z-50">
+      <div className="px-6 py-6 max-w-7xl mx-auto flex md:flex-row justify-between items-center h-full">
         {/* logo */}
         <div className="flex flex-col">
           <Link href="/">
@@ -47,8 +50,21 @@ export default function Navbar() {
               style="link"
               onClick={() => window.location.assign("#experience")}
             />
-            <Button label="WORKS" style="link" />
-            <Button label="CONTACT" style="link" />
+            <Button
+              label="PROJECTS"
+              style="link"
+              onClick={() => window.location.assign("#projects")}
+            />
+            <Button
+              label="RESUME"
+              style="link"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1XP3J2ahWaVvDrGjbnCVRUhFLdWTI20jM/view?usp=sharing",
+                  "_blank"
+                )
+              }
+            />
             <Button
               label={mounted && theme === "dark" ? "💡" : "🌗"}
               style="toggle"

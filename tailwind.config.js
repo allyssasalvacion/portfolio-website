@@ -11,5 +11,4 @@ module.exports = {
       inter: ['"Inter"', "system-ui"],
     },
   },
-  plugins: [],
 };

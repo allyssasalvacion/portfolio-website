@@ -5,11 +5,11 @@
 @import 'fonts.css';
 
 html {
-  scroll-behavior: smooth;
+  @apply font-inter scroll-smooth;
 }
 
 .paragraph {
-  @apply text-gray-700 dark:text-gray-400 leading-[28px] text-sm font-normal;
+  @apply text-gray-700 dark:text-gray-400 leading-[28px] md:leading-[32px] text-sm md:text-base;
 }
 
 .gradient-text {
