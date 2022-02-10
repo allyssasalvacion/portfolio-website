@@ -26,13 +26,13 @@ export default function About() {
       className="max-w-7xl mx-auto mt-24 lg:mt-36 mb-36 pr-16 md:pr-56 lg:pr-20 pl-6 md:pl-36 lg:pl-6"
     >
       <div className="flex flex-col lg:flex-row gap-2 lg:gap-36">
-        <div className="bg-[#f7fafc] dark:bg-[#0e1117] h-max w-full rounded-md ">
-          <div className="bg-[#edf2f6] dark:bg-[#161b22] w-full rounded mt-8 -mb-8 ml-8 md:mt-12 md:-mb-12 md:ml-12 p-8 md:p-12 dark:shadow-2xl dark:shadow-fuchsia-600/10">
-            <h2 className="font-bold text-lg sm:text-xl md:text-2xl flex items-center text-zinc-900 dark:text-gray-300">
+        <div className="outer-container h-max w-full rounded-md ">
+          <div className="inner-container w-full rounded mt-8 -mb-8 ml-8 md:mt-12 md:-mb-12 md:ml-12 p-8 md:p-12 shadow-container">
+            <h2 className="flex items-center label">
               <span className="text-xl sm:text-2xl md:text-3xl mr-4">🎨</span>
               UI/UX Designer
             </h2>
-            <p className="mt-4 leading-[28px] text-sm lg:text-md text-gray-700 dark:text-gray-400">
+            <p className="mt-4 paragraph">
               With almost 3 years of work experience, I am fully capable of
               creating eye-pleasing, easy-to-use, and modern user interfaces
               that follow industry standards. In my free time, I like to take
@@ -56,13 +56,13 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="bg-[#f7fafc] dark:bg-[#0e1117] h-max mt-24 sm:mt-36 w-full rounded-md">
-          <div className="bg-[#edf2f6] dark:bg-[#161b22] w-full rounded mt-8 -mb-8 ml-8 md:mt-12 md:-mb-12 md:ml-12 p-8 md:p-12  dark:shadow-2xl dark:shadow-fuchsia-600/10">
-            <h2 className="font-bold text-lg sm:text-xl md:text-2xl flex items-center text-zinc-900 dark:text-gray-300">
+        <div className="outer-container h-max mt-24 sm:mt-36 w-full rounded-md">
+          <div className="inner-container w-full rounded mt-8 -mb-8 ml-8 md:mt-12 md:-mb-12 md:ml-12 p-8 md:p-12 shadow-container">
+            <h2 className="flex items-center label">
               <span className="text-xl sm:text-2xl md:text-3xl mr-4">💻</span>
               Web Developer
             </h2>
-            <p className="mt-4 leading-[28px] text-sm lg:text-md text-gray-700 dark:text-gray-400">
+            <p className="mt-4 paragraph">
               Javascript is responsible for almost all beautiful and dynamic Web
               UI and UX there is. Sometimes, I like to implement my designs from
               scratch using it with HTML, CSS. Other times, I like to use

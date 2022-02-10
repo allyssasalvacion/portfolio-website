@@ -12,12 +12,8 @@ export default function Hero() {
         <h1 className="leading-tight text-center sm:text-left text-2xl md:text-4xl xl:text-5xl font-bold text-zinc-900 dark:text-gray-300">
           Hey there 👋🏼
           <br />
-          I'm{" "}
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">
-            Allyssa
-          </span>
-          , a designer and developer specializing in web interface and
-          experience
+          I'm <span className="gradient-text">Allyssa</span>, a designer and
+          developer specializing in web interface and experience
         </h1>
       </div>
     </section>
