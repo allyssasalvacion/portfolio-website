@@ -94,7 +94,7 @@ export default function Projects() {
             className="text-indigo-500 hover:opacity-70 font-semibold text-sm md:text-md"
             target="_blank"
           >
-            https://todo.allyssa.dev
+            https://allyssa.dev/
           </a>
           <div className="flex flex-wrap gap-8 text-xs mt-8 uppercase text-zinc-700 dark:text-gray-300">
             <p>JavaScript</p>

@@ -30,7 +30,7 @@ export default function Navbar() {
         <div className="flex flex-col">
           <Link href="/">
             <a>
-              <h1 className="pt-2 font-semibold text-zinc-700 dark:text-gray-300 text-xl font-apple">
+              <h1 className="pt-2 font-bold text-zinc-700 dark:text-gray-300 text-xl font-apple">
                 allyssa
               </h1>
             </a>

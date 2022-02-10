@@ -64,7 +64,9 @@ export default function Experience() {
                       />
                     </div>
                   </dt>
-                  <dd className="-mt-2 ml-8 paragraph">{item.description}</dd>
+                  <dd className="-mt-2 ml-8 leading-[24px] text-sm text-gray-700 dark:text-gray-400">
+                    {item.description}
+                  </dd>
                 </div>
               ))}
             </dl>
@@ -87,7 +89,9 @@ export default function Experience() {
                       />
                     </div>
                   </dt>
-                  <dd className="-mt-2 ml-8 paragraph">{item.description}</dd>
+                  <dd className="-mt-2 ml-8 leading-[24px] text-sm text-gray-700 dark:text-gray-400">
+                    {item.description}
+                  </dd>
                 </div>
               ))}
             </dl>
@@ -110,7 +114,9 @@ export default function Experience() {
                       />
                     </div>
                   </dt>
-                  <dd className="-mt-2 ml-8 paragraph">{item.description}</dd>
+                  <dd className="-mt-2 ml-8 leading-[24px] text-sm text-gray-700 dark:text-gray-400">
+                    {item.description}
+                  </dd>
                 </div>
               ))}
             </dl>
