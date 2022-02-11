@@ -40,9 +40,12 @@ export default function Projects() {
             <p>Firebase</p>
           </div>
           <p className="text-sm mt-4 px-5 py-4 inner-container rounded shadow-container text-gray-700 dark:text-gray-400 leading-[24px]">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-            impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis
-            ratione.
+            E-commerce applications with add-to-cart functionalities are very
+            common nowadays yet still a very good practice for designers and
+            front-end developers. As a pre-employment assignment for Growsari,
+            an e-commerce platform itself, I created a simple web app that would
+            show I can work on shopping-cart experiences with my designs
+            following their requirements.
           </p>
         </div>
       </div>
@@ -59,15 +62,15 @@ export default function Projects() {
             https://todo.allyssa.dev
           </a>
           <div className="flex flex-wrap gap-8 text-xs mt-8 uppercase text-zinc-700 dark:text-gray-300">
-            <p>JavaScript</p>
             <p>ReactJS</p>
             <p>TailwindCSS</p>
             <p>Ant Design</p>
+            <p>Firebase</p>
           </div>
           <p className="text-sm mt-4 px-5 py-4 inner-container rounded shadow-container text-gray-700 dark:text-gray-400 leading-[24px]">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-            impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis
-            ratione.
+            My very first React project, my Simple Todo List application allows
+            me to keep track of my tasks, be able to edit, and complete them
+            when I'm done.
           </p>
         </div>
         <div className="col-span-3 object-scale-down">
@@ -98,15 +101,15 @@ export default function Projects() {
             https://allyssa.dev/
           </a>
           <div className="flex flex-wrap gap-8 text-xs mt-8 uppercase text-zinc-700 dark:text-gray-300">
-            <p>JavaScript</p>
-            <p>ReactJS</p>
+            <p>NextJS</p>
             <p>TailwindCSS</p>
             <p>Vercel</p>
           </div>
           <p className="text-sm mt-4 px-5 py-4 inner-container rounded shadow-container text-gray-700 dark:text-gray-400 leading-[24px]">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-            impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis
-            ratione.
+            As a designer and web developer, the best way to showcase my skill
+            is to present it in my very own personal website. The site shows my
+            preferences and tendencies as a designer - minimalist and use a lot
+            of whitespace, modern, and has its own dark mode theme.
           </p>
         </div>
       </div>
