@@ -5,7 +5,8 @@ import Footer from "./Footer";
 export default function Container({ children }) {
   const meta = {
     title: "Allyssa Albores - Front End Developer",
-    description: "A Front End Developer with UI / UX Design skills",
+    description: "A Front End Developer based in Cebu, Philippines",
+    type: "website",
   };
 
   return (
@@ -14,6 +15,10 @@ export default function Container({ children }) {
         <title>{meta.title}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta content={meta.description} name="description" />
+        <meta property="og:type" content={meta.type} />
+        <meta property="og:site_name" content="Allyssa Albores" />
+        <meta property="og:description" content={meta.description} />
+        <meta property="og:title" content={meta.title} />
         <link rel="icon" type="image/png" sizes="32x32" href="/allyssabg.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
