@@ -28,7 +28,7 @@ export default function Projects() {
           </h2>
           <a
             href={links.cart}
-            className="text-indigo-500 hover:opacity-70 font-semibold text-sm md:text-md"
+            className="text-indigo-500 hover:opacity-80 font-semibold text-sm md:text-md"
             target="_blank"
           >
             https://tinda-han-9f087.firebaseapp.com/
@@ -56,7 +56,7 @@ export default function Projects() {
           </h2>
           <a
             href={links.todo}
-            className="text-indigo-500 hover:opacity-70 font-semibold text-sm md:text-md"
+            className="text-indigo-500 hover:opacity-80 font-semibold text-sm md:text-md"
             target="_blank"
           >
             https://todo.allyssa.dev/
@@ -95,7 +95,7 @@ export default function Projects() {
           </h2>
           <a
             href={links.portfolio}
-            className="text-indigo-500 hover:opacity-70 font-semibold text-sm md:text-md"
+            className="text-indigo-500 hover:opacity-80 font-semibold text-sm md:text-md"
             target="_blank"
           >
             https://allyssa.dev/
