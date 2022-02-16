@@ -5,8 +5,11 @@ import Footer from "./Footer";
 export default function Container({ children }) {
   const meta = {
     title: "Allyssa Albores - Front End Developer",
-    description: "A Front End Developer based in Cebu, Philippines",
+    author: "Allyssa Albores",
+    description:
+      "Allyssa Albores is a Front End Developer based in Cebu, Philippines",
     type: "website",
+    keywords: "Allyssa, Albores, Allyssa Albores",
   };
 
   return (
@@ -14,6 +17,9 @@ export default function Container({ children }) {
       <Head>
         <title>{meta.title}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content={meta.description}></meta>
+        <meta name="keywords" content={meta.keywords} />
+        <meta name="author" content={meta.author} />
         <meta content={meta.description} name="description" />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Allyssa Albores" />
