@@ -7,7 +7,7 @@ const projects = {
 
 const links = {
   todo: "https://todo.allyssa.dev/",
-  cart: "https://tinda-han-9f087.firebaseapp.com/",
+  cart: "https://cart.allyssa.dev/",
   portfolio: "https://allyssa.dev/",
   chat: "https://chat.allyssa.dev/",
 };
@@ -33,7 +33,7 @@ export default function Projects() {
             className="text-indigo-500 hover:opacity-80 font-semibold text-sm md:text-md"
             target="_blank"
           >
-            https://tinda-han-9f087.firebaseapp.com/
+            https://cart.allyssa.dev/
           </a>
           <div className="flex flex-wrap gap-8 text-xs mt-8 uppercase text-zinc-700 dark:text-gray-300">
             <p>ReactJS</p>
