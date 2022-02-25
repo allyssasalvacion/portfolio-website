@@ -2,12 +2,14 @@ const projects = {
   todolight: "./projects/todolight.png",
   cart: "./projects/cart.png",
   portfolio: "./projects/portfolio.png",
+  chat: "./projects/chat.png",
 };
 
 const links = {
   todo: "https://todo.allyssa.dev/",
   cart: "https://tinda-han-9f087.firebaseapp.com/",
   portfolio: "https://allyssa.dev/",
+  chat: "https://chat-app-e0647.web.app/",
 };
 
 export default function Projects() {
@@ -81,14 +83,39 @@ export default function Projects() {
           />
         </div>
       </div>
-      <div className="mb-36 flex flex-col-reverse gap-12 md:grid md:grid-cols-7 md:gap-20 items-center">
+      <div className="mb-16 md:mb-36 flex flex-col-reverse gap-12 md:grid md:grid-cols-7 lg:gap-20 items-center">
         <div className="col-span-3 object-scale-down">
           <img
             className="mt-2 rounded drop-shadow-2xl"
-            src={projects.portfolio}
-            alt="To Do List Light Mode"
+            src={projects.chat}
+            alt="Messaging chat"
           />
         </div>
+        <div className="col-span-4">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold mb-2 text-zinc-900 dark:text-gray-300">
+            Messaging App
+          </h2>
+          <a
+            href={links.chat}
+            className="text-indigo-500 hover:opacity-80 font-semibold text-sm md:text-md"
+            target="_blank"
+          >
+            https://chat-app-e0647.web.app/
+          </a>
+          <div className="flex flex-wrap gap-8 text-xs mt-8 uppercase text-zinc-700 dark:text-gray-300">
+            <p>ReactJS</p>
+            <p>Firebase</p>
+            <p>Material UI</p>
+          </div>
+          <p className="text-sm mt-4 px-5 py-4 inner-container rounded shadow-container text-gray-700 dark:text-gray-400 leading-[24px]">
+            Another very common UI/UX are of messaging applications. Nowadays,
+            almost every big application has its own way of giving users a place
+            to communicate. My version is built using React and Firebase, with
+            the ability to use your Google account to leave a message.
+          </p>
+        </div>
+      </div>
+      <div className="mb-36 flex flex-col gap-12 md:grid md:grid-cols-7 md:gap-20 items-center">
         <div className="col-span-4">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold mb-2 text-zinc-900 dark:text-gray-300">
             Portfolio Website
@@ -111,6 +138,13 @@ export default function Projects() {
             preferences and tendencies as a designer - minimalist and use a lot
             of whitespace, modern, and has its own dark mode theme.
           </p>
+        </div>
+        <div className="col-span-3 object-scale-down">
+          <img
+            className="mt-2 rounded drop-shadow-2xl"
+            src={projects.portfolio}
+            alt="To Do List Light Mode"
+          />
         </div>
       </div>
     </section>

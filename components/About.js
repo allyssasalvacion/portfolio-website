@@ -1,7 +1,6 @@
 const tech = {
   figma: "./tech/figma.svg",
   photoshop: "./tech/photoshop.svg",
-  xd: "./tech/xd.svg",
   illustrator: "./tech/illustrator.svg",
   html: "./tech/html.svg",
   css: "./tech/css.svg",
@@ -10,13 +9,9 @@ const tech = {
   react: "./tech/react.svg",
   vue: "./tech/vue.svg",
   tailwind: "./tech/tailwind.svg",
-  quasar: "./tech/quasar.svg",
-  styled: "./tech/styled.svg",
   git: "./tech/git.svg",
-  bootstrap: "./tech/bootstrap.svg",
   firebase: "./tech/firebase.svg",
   antd: "./tech/antd.svg",
-  next: "./tech/next.svg",
 };
 
 export default function About() {
@@ -52,7 +47,6 @@ export default function About() {
                 src={tech.illustrator}
                 alt="Adobe Illustrator"
               />
-              <img className="h-6 md:h-8 mt-2" src={tech.xd} alt="Adobe Xd" />
             </div>
           </div>
         </div>
@@ -89,37 +83,17 @@ export default function About() {
                 src={tech.tailwind}
                 alt="TailwindCSS"
               />
-              {/* <img
-                className="h-6 md:h-8 mt-2"
-                src={tech.bootstrap}
-                alt="Bootstrap"
-              />
-              <img
-                className="h-6 md:h-8 mt-2"
-                src={tech.quasar}
-                alt="Quasar"
-              /> */}
               <img
                 className="h-6 md:h-8 mt-2"
                 src={tech.antd}
                 alt="Ant Design"
               />
-              {/* <img
-                className="h-6 md:h-8 mt-2"
-                src={tech.styled}
-                alt="Styled Components"
-              /> */}
               <img
                 className="h-6 md:h-8 mt-2"
                 src={tech.firebase}
                 alt="Firebase"
               />
               <img className="h-6 md:h-8 mt-2" src={tech.git} alt="Git" />
-              {/* <img
-                className="h-6 md:h-8 mt-2"
-                src={tech.next}
-                alt="Next.js"
-              /> */}
             </div>
           </div>
         </div>
