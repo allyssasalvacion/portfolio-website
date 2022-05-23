@@ -42,7 +42,7 @@ const icons = {
 const links = {
   instagram: "https://www.instagram.com/allyviated/",
   linkedIn: "https://www.linkedin.com/in/allyssa-a-965a81128/",
-  github: "https://github.com/allyssaalbores7",
+  github: "https://github.com/allyssasalvacion",
 };
 
 export default function Footer() {
