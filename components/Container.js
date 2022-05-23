@@ -4,12 +4,12 @@ import Footer from "./Footer";
 
 export default function Container({ children }) {
   const meta = {
-    title: "Allyssa Albores - Front End Developer",
-    author: "Allyssa Albores",
+    title: "Allyssa Salvacion - Front End Developer",
+    author: "Allyssa Salvacion",
     description:
-      "Allyssa Albores is a Front End Developer based in Cebu, Philippines",
+      "Allyssa Salvacion is a Front End Developer based in Cebu, Philippines",
     type: "website",
-    keywords: "Allyssa, Albores, Allyssa Albores",
+    keywords: "Allyssa, Albores, Allyssa Salvacion",
   };
 
   return (
@@ -22,7 +22,7 @@ export default function Container({ children }) {
         <meta name="author" content={meta.author} />
         <meta content={meta.description} name="description" />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Allyssa Albores" />
+        <meta property="og:site_name" content="Allyssa Salvacion" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <link rel="icon" type="image/png" sizes="32x32" href="/allyssabg.png" />
