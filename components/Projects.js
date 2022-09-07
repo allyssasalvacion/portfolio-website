@@ -6,10 +6,10 @@ const projects = {
 };
 
 const links = {
-  todo: "https://todo.allyssa.dev/",
-  cart: "https://cart.allyssa.dev/",
-  portfolio: "https://allyssa.dev/",
-  chat: "https://chat.allyssa.dev/",
+  todo: "https://todo.allyssasalvacion.com/",
+  cart: "https://cart.allyssasalvacion.com/",
+  portfolio: "https://allyssasalvacion.com/",
+  chat: "https://chat.allyssasalvacion.com/",
 };
 
 export default function Projects() {
@@ -33,7 +33,7 @@ export default function Projects() {
             className="text-indigo-500 hover:opacity-80 font-semibold text-sm md:text-md"
             target="_blank"
           >
-            https://cart.allyssa.dev/
+            https://cart.allyssasalvacion.com/
           </a>
           <div className="flex flex-wrap gap-8 text-xs mt-8 uppercase text-zinc-700 dark:text-gray-300">
             <p>ReactJS</p>
@@ -61,7 +61,7 @@ export default function Projects() {
             className="text-indigo-500 hover:opacity-80 font-semibold text-sm md:text-md"
             target="_blank"
           >
-            https://todo.allyssa.dev/
+            https://todo.allyssasalvacion.com/
           </a>
           <div className="flex flex-wrap gap-8 text-xs mt-8 uppercase text-zinc-700 dark:text-gray-300">
             <p>ReactJS</p>
@@ -100,7 +100,7 @@ export default function Projects() {
             className="text-indigo-500 hover:opacity-80 font-semibold text-sm md:text-md"
             target="_blank"
           >
-            https://chat.allyssa.dev/
+            https://chat.allyssasalvacion.com/
           </a>
           <div className="flex flex-wrap gap-8 text-xs mt-8 uppercase text-zinc-700 dark:text-gray-300">
             <p>ReactJS</p>
@@ -125,7 +125,7 @@ export default function Projects() {
             className="text-indigo-500 hover:opacity-80 font-semibold text-sm md:text-md"
             target="_blank"
           >
-            https://allyssa.dev/
+            https://allyssasalvacion.com/
           </a>
           <div className="flex flex-wrap gap-8 text-xs mt-8 uppercase text-zinc-700 dark:text-gray-300">
             <p>NextJS</p>
