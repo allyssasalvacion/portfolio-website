@@ -7,7 +7,7 @@ html {
 }
 
 .paragraph {
-  @apply text-gray-700 dark:text-gray-400 leading-[28px] md:leading-[32px] text-sm md:text-base;
+  @apply text-gray-700 dark:text-gray-400 leading-[28px] md:leading-[32px] text-base;
 }
 
 .gradient-text {

@@ -3,7 +3,12 @@ import { useTheme } from "next-themes";
 import Link from "next/link";
 import Button from "./Button";
 import { Popover, Transition } from "@headlessui/react";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import {
+  MenuIcon,
+  XIcon,
+  MoonIcon,
+  LightBulbIcon,
+} from "@heroicons/react/outline";
 
 const navigation = [
   { name: "ABOUT", href: "#about" },
@@ -66,7 +71,13 @@ export default function Navbar() {
               }
             />
             <Button
-              label={mounted && theme === "dark" ? "💡" : "🌗"}
+              label={
+                mounted && theme === "dark" ? (
+                  <LightBulbIcon className="h-6 w-6" aria-hidden="true" />
+                ) : (
+                  <MoonIcon className="h-6 w-6" aria-hidden="true" />
+                )
+              }
               style="toggle"
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             />
@@ -97,7 +108,16 @@ export default function Navbar() {
                       allyssa
                     </h1>
                     <Button
-                      label={mounted && theme === "dark" ? "💡" : "🌗"}
+                      label={
+                        mounted && theme === "dark" ? (
+                          <LightBulbIcon
+                            className="h-6 w-6"
+                            aria-hidden="true"
+                          />
+                        ) : (
+                          <MoonIcon className="h-6 w-6" aria-hidden="true" />
+                        )
+                      }
                       style="toggle"
                       onClick={() =>
                         setTheme(theme === "dark" ? "light" : "dark")

@@ -10,7 +10,7 @@ export default function Hero() {
           className="rounded-md h-24 sm:h-48 lg:h-54 shadow-2xl dark:shadow-2xl shadow-zinc-500/50 dark:shadow-fuchsia-600/20 dark:bg-gray-200"
         />
         <h1 className="leading-tight text-center sm:text-left text-2xl md:text-4xl xl:text-5xl font-bold text-zinc-900 dark:text-gray-300">
-          Hey there 👋🏼
+          <p className="-mb-4">Hey there 👋🏼</p>
           <br />
           I'm <span className="gradient-text">Allyssa</span>, a designer and
           developer specializing in web interface and experience
