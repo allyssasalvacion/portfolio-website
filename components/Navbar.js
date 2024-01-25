@@ -35,8 +35,8 @@ export default function Navbar() {
         <div className="flex flex-col">
           <Link href="/">
             <a>
-              <h1 className="pt-2 font-bold text-zinc-700 dark:text-gray-300 text-xl font-apple">
-                allyssa
+              <h1 className="pt-2 font-bold text-zinc-700 dark:text-gray-300 text-xl font-apple flex flex-row gap-1">
+                allyssa <span className="hidden md:flex">salvacion</span>
               </h1>
             </a>
           </Link>
