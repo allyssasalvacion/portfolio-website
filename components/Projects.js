@@ -7,7 +7,9 @@ export default function Projects() {
       {projectsData.map((project) => (
         <div
           key={project.key}
-          className="mb-16 md:mb-36 gap-12 md:grid md:grid-cols-7 lg:gap-20 items-center"
+          className={`mb-16 md:mb-36 flex ${
+            project.key % 2 === 0 ? "flex-col" : "flex-col-reverse"
+          } gap-12 md:grid md:grid-cols-7 lg:gap-20 items-center`}
         >
           <div
             className={`col-span-3 object-scale-down ${
