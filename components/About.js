@@ -16,24 +16,24 @@ export default function About() {
                 : "outer-container h-max w-full rounded-md"
             }
           >
-            <div className="inner-container w-full rounded mt-8 -mb-8 ml-8 md:mt-8 md:-mb-8 md:ml-8 p-8 md:p-12 shadow-container">
+            <div className="inner-container w-full rounded ml-4 mt-4 -mb-8  md:mt-8 md:ml-8 md:-mb-8  p-8 md:p-12 shadow-container">
               <h2 className="flex items-center label">
-                <span className="text-xl sm:text-2xl md:text-3xl mr-4">
+                {/* <span className="text-xl sm:text-2xl md:text-3xl mr-4">
                   {about.icon}
-                </span>
+                </span> */}
                 {about.role}
               </h2>
               <p className="mt-4 paragraph">{about.description}</p>
-              {/* <div className="mt-5 flex flex-wrap gap-6">
+              <div className="mt-5 flex flex-wrap gap-4 md:gap-6">
                 {about.imgSrc.map((image, index) => (
                   <img
                     key={index}
-                    className="h-6 md:h-8 mt-2"
+                    className="h-4 md:h-8 mt-2"
                     src={image.src}
                     alt={image.alt}
                   />
                 ))}
-              </div> */}
+              </div>
             </div>
           </div>
         ))}

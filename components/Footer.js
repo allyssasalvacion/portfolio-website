@@ -51,7 +51,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-4 border-t border-gray-300 dark:border-gray-800">
         <div className="flex flex-col gap-2 md:flex-row justify-between items-center">
           <div className="text-xs text-zinc-700 dark:text-gray-400 text-center">
-            ALLYSSAALBORES7@GMAIL.COM
+            ALLYSSALVACION@GMAIL.COM
           </div>
           <div className="text-center">
             <Button

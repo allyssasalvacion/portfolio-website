@@ -11,11 +11,11 @@ import {
 } from "@heroicons/react/outline";
 
 const navigation = [
-  { name: "ABOUT", href: "#about" },
-  { name: "EXPERIENCE", href: "#experience" },
-  { name: "PROJECTS", href: "#projects" },
+  { name: "About", href: "#about" },
+  { name: "Experience", href: "#experience" },
+  { name: "Projects", href: "#projects" },
   {
-    name: "RESUME",
+    name: "Resume",
     href: "https://drive.google.com/file/d/1XP3J2ahWaVvDrGjbnCVRUhFLdWTI20jM/view?usp=sharing",
   },
 ];
@@ -131,7 +131,7 @@ export default function Navbar() {
                     </Popover.Button>
                   </div>
                 </div>
-                <div className="px-2 pt-2 pb-3 space-y-1">
+                <div className="px-2 pt-6 pb-3 space-y-1">
                   {navigation.map((item) => (
                     <a
                       key={item.name}
