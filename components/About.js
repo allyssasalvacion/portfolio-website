@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="max-w-7xl mx-auto mt-24 lg:mt-36 mb-36 pr-16 md:pr-56 lg:pr-20 pl-6 md:pl-36 lg:pl-6"
+      className="max-w-7xl mx-auto mt-24 lg:mt-36 mb-36 pr-10 md:pr-56 lg:pr-20 pl-6 md:pl-36 lg:pl-6"
     >
       <div className="flex flex-col lg:flex-row gap-2 lg:gap-36">
         {aboutData.map((about) => (
