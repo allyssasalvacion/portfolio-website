@@ -3,7 +3,7 @@ const heroUrl = "./allyssa.png";
 export default function Hero() {
   return (
     <section className="max-w-7xl mx-auto px-4 xl:px-5 mb-0 lg:mb-32 mt-24 md:pt-12">
-      <div className="flex flex-col sm:flex-row items-center gap-8 md:gap-10 lg:gap-16 mx-12 sm:mx-24 md:mx-32 lg:mx-40">
+      <div className="flex flex-col sm:flex-row items-center gap-8 md:gap-10 lg:gap-16 mx-2 sm:mx-24 md:mx-32 lg:mx-40">
         <img
           src={heroUrl}
           alt="avatar"

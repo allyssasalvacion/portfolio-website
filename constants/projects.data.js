@@ -11,6 +11,16 @@ export const projectsData = [
   },
   {
     key: 2,
+    title: "Github Clone",
+    link: "https://github.allyssasalvacion.com/",
+    src: "./projects/github.png",
+    alt: "Github Clone",
+    tech: ["GraphQL", "ReactJS", "TailwindCSS"],
+    description:
+      "To demonstrate proficiency in converting designs into functional templates while honing expertise in working with GraphQL APIs.",
+  },
+  {
+    key: 3,
     title: "Shopping Cart",
     link: "https://cart.allyssasalvacion.com/",
     src: "./projects/cart.png",
@@ -20,17 +30,17 @@ export const projectsData = [
       "E-commerce applications with add-to-cart functionalities are very common nowadays yet still a very good practice for designers and front-end developers. As a pre-employment assignment for Growsari, an e-commerce platform itself, I created a simple web app that would show I can work on shopping-cart experiences with my designs following their requirements.",
   },
   {
-    key: 3,
+    key: 4,
     title: "Simple Todo List",
     link: "https://todo.allyssasalvacion.com/",
     src: "./projects/todolight.png",
     alt: "To Do List Light Mode",
-    tech: ["ReactJS", "TailwindCSS", "Ant Design", "Firebase"],
+    tech: ["ReactJS", "Tailwind", "Ant Design", "Firebase"],
     description:
       "My very first React project, my Simple Todo List application allows me to keep track of my tasks, be able to edit, and complete them when I'm done.",
   },
   {
-    key: 4,
+    key: 5,
     title: "Messaging App",
     link: "https://chat.allyssasalvacion.com/",
     src: "./projects/chat.png",
@@ -40,7 +50,7 @@ export const projectsData = [
       "Another very common UI/UX are of messaging applications. Nowadays, almost every big application has its own way of giving users a place to communicate. My version is built using React and Firebase, with the ability to use your Google account to leave a message.",
   },
   {
-    key: 5,
+    key: 6,
     title: "Portfolio Website",
     link: "https://allyssasalvacion.com/",
     src: "./projects/portfolio.png",
