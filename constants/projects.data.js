@@ -1,6 +1,16 @@
 export const projectsData = [
   {
     key: 1,
+    title: "MERN Authentication",
+    link: "https://github.com/allyssasalvacion/mern-authentication",
+    src: "./projects/mern.gif",
+    alt: "MERN Authentication",
+    tech: ["MongoDB", "ExpressJS", "ReactJS", "Node.js"],
+    description:
+      "Creating my first project using the MERN stack: an authentication app with a minimalist UI design.",
+  },
+  {
+    key: 2,
     title: "Shopping Cart",
     link: "https://cart.allyssasalvacion.com/",
     src: "./projects/cart.png",
@@ -10,7 +20,7 @@ export const projectsData = [
       "E-commerce applications with add-to-cart functionalities are very common nowadays yet still a very good practice for designers and front-end developers. As a pre-employment assignment for Growsari, an e-commerce platform itself, I created a simple web app that would show I can work on shopping-cart experiences with my designs following their requirements.",
   },
   {
-    key: 2,
+    key: 3,
     title: "Simple Todo List",
     link: "https://todo.allyssasalvacion.com/",
     src: "./projects/todolight.png",
@@ -20,7 +30,7 @@ export const projectsData = [
       "My very first React project, my Simple Todo List application allows me to keep track of my tasks, be able to edit, and complete them when I'm done.",
   },
   {
-    key: 3,
+    key: 4,
     title: "Messaging App",
     link: "https://chat.allyssasalvacion.com/",
     src: "./projects/chat.png",
@@ -30,7 +40,7 @@ export const projectsData = [
       "Another very common UI/UX are of messaging applications. Nowadays, almost every big application has its own way of giving users a place to communicate. My version is built using React and Firebase, with the ability to use your Google account to leave a message.",
   },
   {
-    key: 4,
+    key: 5,
     title: "Portfolio Website",
     link: "https://allyssasalvacion.com/",
     src: "./projects/portfolio.png",

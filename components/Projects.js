@@ -23,7 +23,7 @@ export default function Projects() {
             />
           </div>
           <div className="col-span-4">
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold mb-2 text-zinc-900 dark:text-gray-300">
+            <h2 className="text-md sm:text-lg md:text-xl font-semibold mb-1 text-zinc-900 dark:text-gray-300">
               {project.title}
             </h2>
             <a
