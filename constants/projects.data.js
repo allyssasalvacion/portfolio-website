@@ -1,6 +1,16 @@
 export const projectsData = [
   {
     key: 1,
+    title: "Shopping Cart",
+    link: "https://cart.allyssasalvacion.com/",
+    src: "./projects/cart.png",
+    alt: "Shopping Cart",
+    tech: ["ReactJS", "TailwindCSS", "Ant Design", "Redux"],
+    description:
+      "E-commerce applications with add-to-cart functionalities are very common nowadays yet still a very good practice for designers and front-end developers. As a pre-employment assignment for Growsari, an e-commerce platform itself, I created a simple web app that would show I can work on shopping-cart experiences with my designs following their requirements.",
+  },
+  {
+    key: 2,
     title: "MERN Authentication",
     link: "https://github.com/allyssasalvacion/mern-authentication",
     src: "./projects/mern.gif",
@@ -10,7 +20,7 @@ export const projectsData = [
       "Creating my first project using the MERN stack: an authentication app with a minimalist UI design.",
   },
   {
-    key: 2,
+    key: 3,
     title: "Github Clone",
     link: "https://github.allyssasalvacion.com/",
     src: "./projects/github.png",
@@ -18,16 +28,6 @@ export const projectsData = [
     tech: ["GraphQL", "ReactJS", "TailwindCSS"],
     description:
       "To demonstrate proficiency in converting designs into functional templates while honing expertise in working with GraphQL APIs.",
-  },
-  {
-    key: 3,
-    title: "Shopping Cart",
-    link: "https://cart.allyssasalvacion.com/",
-    src: "./projects/cart.png",
-    alt: "Shopping Cart",
-    tech: ["ReactJS", "TailwindCSS", "Ant Design", "Redux"],
-    description:
-      "E-commerce applications with add-to-cart functionalities are very common nowadays yet still a very good practice for designers and front-end developers. As a pre-employment assignment for Growsari, an e-commerce platform itself, I created a simple web app that would show I can work on shopping-cart experiences with my designs following their requirements.",
   },
   {
     key: 4,
