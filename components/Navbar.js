@@ -65,7 +65,7 @@ export default function Navbar() {
               style="link"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1XP3J2ahWaVvDrGjbnCVRUhFLdWTI20jM/view?usp=sharing",
+                  "https://drive.google.com/file/d/1-42LhZK_bihxytDAc_Y-iwjKkR5gtcUr/view?usp=drive_link",
                   "_blank"
                 )
               }
