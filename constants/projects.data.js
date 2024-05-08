@@ -1,5 +1,15 @@
 export const projectsData = [
   {
+    key: 0,
+    title: "Pokedex",
+    link: "https://pokedex.allyssasalvacion.com/",
+    src: "./projects/pokedex.png",
+    alt: "Pokedex",
+    tech: ["NextJS", "TailwindCSS"],
+    description:
+      "This project is ongoing. The login page UI is complete, with more to come soon. Stay tuned for updates!",
+  },
+  {
     key: 1,
     title: "Shopping Cart",
     link: "https://cart.allyssasalvacion.com/",
