@@ -4,7 +4,7 @@ export const aboutData = [
     role: "UI/UX Designer",
     icon: "🎨",
     description:
-      "With 4 years of work experience, I am fully capable of creating eye-pleasing, easy-to-use, and modern user interfaces that follow industry standards. I prefer minimalist, whitespace-heavy web designs that use clean typography.",
+      "With 5 years of work experience, I am fully capable of creating eye-pleasing, easy-to-use, and modern user interfaces that follow industry standards. I prefer minimalist, whitespace-heavy web designs that use clean typography.",
     imgSrc: [
       {
         src: "./tech/figma.svg",

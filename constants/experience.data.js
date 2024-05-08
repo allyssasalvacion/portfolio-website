@@ -3,7 +3,7 @@ export const workExperience = [
     key: 1,
     companyName: "Growsari",
     position: "Front End Developer",
-    period: "FEBRUARY 2022 - PRESENT",
+    period: "FEBRUARY 2022 - MARCH 2024",
     description: [
       "A tech-enabled B2B platform that helps the Philippines’ over one million sari-sari stores. I love working for them as together, we empower small and medium business owners.",
       "As a front end developer for Growsari, I help small business owners by creating user-friendly interfaces that make it easy for them to shop for supplies.",
